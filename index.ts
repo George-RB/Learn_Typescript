@@ -49,10 +49,22 @@
 // TUPLE START
 // Кортеж — это массив фиксированной длины, где каждый элемент имеет свой тип.
 
-let user: [string, number, boolean] = ['Alex', 18, true]
-console.log(user[0])
-console.log(user[1])
-console.log(user[2])
-
+// let user: [string, number, boolean] = ['Alex', 18, true]
+// console.log(user[0])
+// console.log(user[1])
+// console.log(user[2])
 
 // TUPLE END
+
+// ----------------------------------------------
+
+// UNKNOWN START
+
+let value: unknown = 'Hello';
+value = 42;
+value = true;
+
+typeof value === 'string' ? console.log(value) : console.log('Type isn`t STRING')
+
+
+// UNKNOWN END
