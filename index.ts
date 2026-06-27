@@ -15,22 +15,28 @@
 // MODULE 2
 // ARRAY START
 
-    // SIMPLE 
-let numbers: number[] = [1,2,3,4,5];
-console.log(numbers);
+//     // SIMPLE 
+// let numbers: number[] = [1,2,3,4,5];
+// console.log(numbers);
 
-let fruits: string[] = ['apple','banana','pineapple','melon'];
-console.log(fruits);
+// let fruits: string[] = ['apple','banana','pineapple','melon'];
+// console.log(fruits);
 
-let flags: boolean[] = [true, true, false];
-console.log(flags);
+// let flags: boolean[] = [true, true, false];
+// console.log(flags);
 
-    // GENERICS
+//     // GENERICS
 
-let fruitsG: Array<string> = ['apple','banana','pineapple','melon'];
-let numbersG: Array<number> = [1,2,3,4,5];
-console.log(fruitsG, numbersG);
+// let fruitsG: Array<string> = ['apple','banana','pineapple','melon'];
+// let numbersG: Array<number> = [1,2,3,4,5];
+// console.log(fruitsG, numbersG);
 
 // ARRAY END
 
 
+// READONLY ARRAYS START
+
+// const colors: readonly string[] = ['red', 'orange', 'green']
+// console.log(colors[1])
+
+// READONLY ARRAYS END
